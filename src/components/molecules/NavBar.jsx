@@ -7,7 +7,9 @@ const NavBar = () => {
   return (
     <nav className="w-full z-20 top-0 left-0 bg-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <div>Logo</div>
+        <div className="text-primary font-bold text-lg md:text-3xl">
+          ChurchApp
+        </div>
         <div className="flex md:order-2">
           <Buttons type="filled">Sign in/Register</Buttons>
           <button
